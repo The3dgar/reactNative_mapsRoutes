@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "rutasApp",
+    "slug": "rutasApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config":{
+        "googleMapsApiKey":"YOUR_MAP_API_KEY"
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_BACKGROUND_LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config":{
+        "googleMaps":{
+          "apiKey":"YOUR_MAP_API_KEY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
